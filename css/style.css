@@ -1,0 +1,103 @@
+html{
+font-family:Century Gothic;
+
+}
+body{
+	margin:0;
+}
+
+nav {
+z-index : 1000;
+background-color:black;
+position:fixed;
+top:0;
+width:100%;
+overflow:hidden;
+display:flex;
+}
+
+nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 10px;
+  text-decoration: none;
+}
+ 
+.nav-brand {
+font-family:"Trebuchet MS", Arial, sans-serif; 
+color: #f2f2f2;
+padding: 14px 15px;
+font-size:25px;
+margin: 0px 50px 0px 10px; 
+}
+
+
+
+
+.parallax{
+  background-image: url("../image/sammy3.jpg");
+  height: 800px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color-overlay{
+	 background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5));
+    overflow: hidden;
+    height: 100%;
+    z-index: 1;
+}
+#header{
+  position: absolute;
+  z-index: 2;
+  font-family:"Trebuchet MS", Arial, sans-serif; 
+  top: 100px;
+  left: 450px;
+  color:#FFFFFF;
+ font-size: 150px;
+  }
+  
+
+.container_a{
+	height:620px;
+	background-color: #00000;
+	font-size:15px;
+	padding:20px 50px;
+   text-align: justify;
+    text-justify: inter-word;
+}
+
+.con_h1{
+	 font-family:"Trebuchet MS", Arial, sans-serif; 
+     font-size: 70px;
+	 text-align:center;
+	 padding: 15px 0px 5px 0px;
+
+ }
+
+.container_b {
+	height:250px;
+	background-color: #F5F5F5;
+	font-size:15px;
+	padding:25px 50px;
+   text-align: justify;
+    text-justify: inter-word;
+}
+
+.footer{
+ 
+  background-image: url("../image/sammy3.jpg");
+   text-align: center;
+ height:500px;
+ color: #f2f2f2;
+ font-family:"Trebuchet MS", Arial, sans-serif;
+ background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px;  
+}
